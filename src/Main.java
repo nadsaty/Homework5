@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
     }
 
 
@@ -64,5 +65,52 @@ public class Main {
         } else if (deliveryDistance > 100) {
             System.out.println("Свыше 100км доставки нет \n");
         }
+    }
+
+    public static void task5 () {
+        System.out.println("Задача 5 \n");
+        int monthNumber = 12;
+        switch (monthNumber) {
+            case 1:
+                System.out.println("Месяц январь принадлежит к сезону зима \n");
+                break;
+            case 2:
+                System.out.println("Месяц февраль принадлежит к сезону зима \n");
+                break;
+            case 3:
+                System.out.println("Месяц март принадлежит к сезону весна \n");
+                break;
+            case 4:
+                System.out.println("Месяц апрель принадлежит к сезону весна \n");
+                break;
+            case 5:
+                System.out.println("Месяц май принадлежит к сезону весна \n");
+                break;
+            case 6:
+                System.out.println("Месяц июнь принадлежит к сезону лето \n");
+                break;
+            case 7:
+                System.out.println("Месяц июль принадлежит к сезону лето \n");
+                break;
+            case 8:
+                System.out.println("Месяц август принадлежит к сезону лето \n");
+                break;
+            case 9:
+                System.out.println("Месяц сентябрь принадлежит к сезону осень \n");
+                break;
+            case 10:
+                System.out.println("Месяц октябрь принадлежит к сезону осень \n");
+                break;
+            case 11:
+                System.out.println("Месяц ноябрь принадлежит к сезону осень \n");
+                break;
+            case 12:
+                System.out.println("Месяц декабрь принадлежит к сезону зима \n");
+                break;
+
+            default:
+                System.out.println("Такого месяца не существует \n");
+        }
+
     }
 }
