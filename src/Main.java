@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
     }
 
 
@@ -33,6 +34,18 @@ public class Main {
             System.out.println("Установите облегченную версию приложения для Android по ссылке \n");
         } else  if (clientOS == 1 && clientDeviceYear >= 2015) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке \n");
+        }
+    }
+
+
+    public static void task3 () {
+        System.out.println("Задача 3 \n");
+        int year = 2024;
+        boolean whichYear = year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
+        if (whichYear) {
+            System.out.println (year + " - високосный год \n");
+        } else {
+            System.out.println (year + " - не високосный год \n");
         }
     }
 }
